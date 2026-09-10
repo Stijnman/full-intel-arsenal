@@ -1,77 +1,85 @@
----
-name: full-intel-arsenal
-description: >
-  Defensive competitive intelligence and open-source research skill. Combines
-  public GitHub competitive analysis, OSINT hygiene, YouTube channel metrics
-  review, and vulnerability-awareness research from public sources. Use when
-  the user asks for competitor research, public repo scouting, channel stats,
-  or defensive CVE awareness. Read-only; no exploit development.
-version: 1.1.0
-author: Stijnman
-license: MIT
+# full-intel-arsenal
+
+**Description**: Repository for full-intel-arsenal - [Brief description to be added]
+
+**Purpose**: Enable AI agents to [main purpose to be added].
+
 ---
 
-# Full Intel Arsenal (Defensive)
+## 🎯 Quick Start
 
-Unified agent skill for **public-source** competitive and security awareness research.
+### For AI Agent Developers
 
-## When to use
+1. Review the documentation below
+2. Configure required settings
+3. Test with sample data
+4. Deploy and monitor
 
-- Competitive GitHub analysis (stars, activity, README quality, license)
-- OSINT on **public** profiles and pages the user is allowed to review
-- YouTube channel tooling (public metrics, upload cadence summaries)
-- Vulnerability **awareness** from NVD/GHSA/public advisories (not 0-day weaponization)
+### For Users
 
-## Workflow
+Tell your AI agent to use this repository for [use case].
 
-1. Clarify target scope and legal/ethical boundary (public data only).
-2. Gather sources in parallel: GitHub API/`gh`, web docs, advisory feeds.
-3. Normalize findings into a structured report (markdown table + risks).
-4. Separate **facts** from **hypotheses**; cite URLs.
-5. Recommend defensive actions (patch, monitor, config harden) — never exploits.
+---
 
-## Modules
+## 📊 Overview
 
-### A. Competitive GitHub analysis
+This repository contains [description].
 
-- Repo metadata, languages, recent commits, open issues pulse
-- README vs reality drift
-- License and supply-chain surface (deps high-level only)
+### Core Capabilities
 
-### B. OSINT (public)
+| Category | Description | Status |
+|----------|-------------|--------|
+| [Feature 1] | [Description] | ✅ Production |
+| [Feature 2] | [Description] | ✅ Production |
 
-- Public about pages, blogs, docs, status pages
-- No credential stuffing, no private data access, no doxxing
+---
 
-### C. YouTube channel tools
+## 🔒 Security Overview
 
-- Public subscriber/video counts when available
-- Upload frequency and topic clustering from titles
+⚠️ **IMPORTANT**: Please read [SECURITY.md](./SECURITY.md) before using this repository.
 
-### D. Vulnerability intelligence (defensive)
+### Key Security Principles
 
-- Map stack → known CVEs via public databases
-- Prioritize by exposure and exploit **publication** status
-- Output patch/upgrade guidance only
+1. Data Privacy
+2. Input Validation
+3. Secure Configuration
+4. Rate Limiting
+5. Audit Trail
 
-## Prohibited
+---
 
-- Writing exploit PoCs, malware, or attack playbooks
-- Accessing private systems without authorization
-- Harvesting personal data for harassment or spam
+## 📚 Documentation
 
-## Output format
+| Document | Description | Required Reading |
+|----------|-------------|------------------|
+| [SECURITY.md](./SECURITY.md) | Security policy | ✅ Yes |
+| [CONTRIBUTING.md](./CONTRIBUTING.md) | Contribution guide | ⚠️ For contributors |
+| [TESTING.md](./TESTING.md) | Testing guide | ⚠️ For contributors |
+| [README.md](./README.md) | Overview | ✅ Yes |
+| [CHANGELOG.md](./CHANGELOG.md) | Changes | ⚠️ For reference |
 
-```markdown
-# Intel report: <target>
-## Scope
-## Key findings
-## Competitive signals
-## Security awareness
-## Recommended next actions
-## Sources
-```
+---
 
-## Related skills
+## 📜 License
 
-- `github-repo-scout`, `defensive-mcp-audit`, `competitor_researcher`, `skill-researcher`
+This repository is licensed under the **MIT License**. See [LICENSE](./LICENSE).
+
+---
+
+## 👤 Maintainer
+
+**Stijnman** - [GitHub Profile](https://github.com/Stijnman)
+
+---
+
+## 📞 Support
+
+| Issue Type | How to Get Help |
+|-----------|-----------------|
+| Bug Report | Open a [GitHub Issue](https://github.com/Stijnman/full-intel-arsenal/issues) |
+| Security Issue | Email: security@stijnman.com |
+| General Question | Open a [GitHub Discussion](https://github.com/Stijnman/full-intel-arsenal/discussions) |
+
+---
+
+*Last updated: September 11, 2026*
