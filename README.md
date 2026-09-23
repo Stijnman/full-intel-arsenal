@@ -30,3 +30,7 @@ A single `SKILL.md` agents can load to run structured research workflows. It is 
 ## License
 
 MIT © 2026 Stijnman
+
+## Flagship integration
+
+This project remains independently usable and is not deprecated. Its capabilities are also consumed by [AegisAI](https://github.com/Stijnman/AegisAI), where they are integrated with complementary defensive security repositories behind shared platform contracts. This repository remains the source of truth for its component-specific implementation.
